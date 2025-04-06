@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explorando el Espacio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1447433819943-74a20887a81e?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background-color: rgba(0, 0, 50, 0.8);
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 40, 0.85);
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    section {
+      background-color: rgba(0, 0, 30, 0.75);
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 15px;
+    }
+
+    h2 {
+      color: #00bfff;
+      margin-top: 0;
+    }
+
+    ul li::before {
+      content: "🚀 ";
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 50, 0.85);
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explorando el Espacio</h1>
+    <p>Descubre los cuerpos celestes y los satélites artificiales</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#recursos">Recursos Educativos</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>
+      Bienvenidos a nuestra página educativa. Aquí aprenderás a diferenciar los cuerpos celestes naturales —como planetas, estrellas y cometas— de los satélites artificiales, además de comprender cómo estos últimos logran transmitir información a través del espacio.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hubble_Space_Telescope_in_orbit.jpg/800px-Hubble_Space_Telescope_in_orbit.jpg" alt="Satélite en el espacio">
+  </section>
+
+  <section id="recursos">
+    <h2>Recursos Educativos</h2>
+    <ul>
+      <li>Video: <em>¿Qué diferencia a un planeta de un satélite?</em></li>
+      <li>Infografía interactiva del Sistema Solar</li>
+      <li>Simulación online: Comunicación vía satélite</li>
+      <li>Artículo: ¿Cómo viaja la señal de un satélite a la Tierra?</li>
+    </ul>
+    <img src="https://cdn.pixabay.com/photo/2012/11/28/10/37/earth-67578_960_720.jpg" alt="Planeta Tierra desde el espacio">
+  </section>
+
+  <section id="resultados">
+    <h2>Resultados</h2>
+    <p>Al finalizar este proyecto, los estudiantes podrán:</p>
+    <ul>
+      <li>Reconocer diferentes tipos de cuerpos celestes.</li>
+      <li>Comprender cómo funcionan los satélites artificiales.</li>
+      <li>Explicar cómo se transmite información a través del espacio.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o sugerencias? Puedes escribirnos a:</p>
+    <p><strong>espacio.educativo@ejemplo.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Explorando el Espacio. Proyecto educativo.</p>
+  </footer>
+</body>
+</html>
